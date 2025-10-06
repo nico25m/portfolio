@@ -50,23 +50,34 @@ body {
 #about{
     display: flex;
     height: 900px;
+    
 
     .about-sfondo{
         width: 100%;
         opacity: 0.5;
         
     }
+
+    .container-about{
+      position: absolute;
+      display: flex;
+      width: 70%;
+      height: 550px;
+      background-color: rgb(204, 204, 204);
+      
+    }
 }
 
 #work{
-    display: flex;
     height: 900px;
+    display: flex;
 
     .work-sfondo{
         width: 100%;
         opacity: 0.5;
         transform: scaleY(-1); 
     }
+    
 }
 
 #contact{

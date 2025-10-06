@@ -49,10 +49,17 @@ body {
   width: 100%;
   opacity: 0.5;
 }
+#about .container-about {
+  position: absolute;
+  display: flex;
+  width: 70%;
+  height: 550px;
+  background-color: rgb(204, 204, 204);
+}
 
 #work {
-  display: flex;
   height: 900px;
+  display: flex;
 }
 #work .work-sfondo {
   width: 100%;
