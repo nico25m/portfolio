@@ -193,10 +193,19 @@ body {
 #contact {
   display: flex;
   height: 810px;
+  justify-content: center;
 }
 #contact .contact-sfondo {
   width: 100%;
   opacity: 0.5;
+}
+#contact form {
+  position: absolute;
+  align-self: center;
+  display: flex;
+  width: 450px;
+  height: 500px;
+  background-color: blue;
 }
 
 #footer {
