@@ -25,6 +25,31 @@
       href="img/favicon-32x32.png"
       type="image/x-icon"
     />
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+      (function () {
+        emailjs.init({
+          publicKey: "bdFcD1fHP_ee3AzkD", 
+        });
+      })();
+
+      function sendEmail(event) {
+        event.preventDefault();
+
+        emailjs
+          .sendForm("service_2wjhj1b", "template_0h6nncm", "#contact-form")
+          .then(
+            () => {
+              alert("Email inviata con successo!");
+            },
+            (error) => {
+              console.error("Errore:", error);
+              alert("Ops, qualcosa è andato storto!");
+            }
+          );
+      }
+    </script>
   </head>
 
   <body>
@@ -79,11 +104,7 @@
       </div>
     </div>
     <div id="work">
-      <img
-        class="work-sfondo"
-        src="img/Sfondo.png"
-        alt="sfondo sezione work"
-      />
+      <img class="work-sfondo" src="img/Sfondo.png" alt="sfondo sezione work" />
       <h2>Work</h2>
       <div class="work1">
         <img
@@ -117,7 +138,31 @@
         src="img/Sfondo.png"
         alt="sfondo sezione contact"
       />
-      <form action="" method="get"></form>
+      <h2>Contact</h2>
+      <form id="contact-form" onsubmit="sendEmail(event)">
+        <input type="name" name="nome" id="nome" placeholder="Nome" required />
+        <input
+          type="cognome"
+          name="cognome"
+          id="cognome"
+          placeholder="Cognome"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+          required
+        />
+        <textarea
+          name="messaggio"
+          id="messaggio"
+          placeholder="Messaggio"
+          required
+        ></textarea>
+        <button type="submit">Invia</button>
+      </form>
     </div>
 
     <div id="footer">
