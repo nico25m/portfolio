@@ -83,6 +83,7 @@ form {
   height: 450px;
   border-radius: 20px;
   box-shadow: 0 4px 15px rgba(10, 61, 98, 0.192);
+  padding: 20px;
 }
 
 form textarea {
