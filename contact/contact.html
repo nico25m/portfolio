@@ -16,6 +16,12 @@
       href="../img/favicon-32x32.png"
       type="image/x-icon"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script>
       (function () {
@@ -32,7 +38,7 @@
     </script>
   </head>
   <body>
-    <div id="header"> 
+    <div id="header">
       <nav class="menu">
         <a href="../index.html#about">About</a>
         <a href="../index.html#work">Work</a>
@@ -63,18 +69,47 @@
 
     <div id="contact">
       <h2>Contattami</h2>
-      <div class="container-contact">
-        <form id="contact-form" onsubmit="sendEmail(event)">
-          <input type="text" name="nome" placeholder="Nome" required />
-          <input type="text" name="cognome" placeholder="Cognome" required />
-          <input type="email" name="email" placeholder="Email" required />
-          <textarea
-            name="message"
-            placeholder="Il tuo messaggio..."
-            required
-          ></textarea> 
-          <button type="submit">Invia</button>
-        </form>
+      <div class="mb-3">
+        <div class="container-contact">
+          <form id="contact-form" onsubmit="sendEmail(event)">
+            <input
+              type="text"
+              class="form-control"
+              id="nome"
+              placeholder="Nome"
+              required
+            />
+            <input
+              type="text"
+              class="form-control"
+              id="cognome"
+              placeholder="Cognome"
+              required
+            />
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Email"
+              required
+            />
+            <textarea
+              class="form-control"
+              id="messaggio"
+              placeholder="Il tuo messaggio..."
+              rows="3"
+              required
+            ></textarea>
+
+            <button
+              type="submit"
+              class="btn btn-primary"
+            >
+              Invia
+            </button>
+            
+          </form>
+        </div>
       </div>
     </div>
 

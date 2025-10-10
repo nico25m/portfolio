@@ -79,20 +79,10 @@ form {
   align-items: center;
   gap: 20px;
   background-color: #ffffff;
-  width: 500px;
-  border-radius: 25px;
-  box-shadow: 0 4px 15px rgba(10, 61, 98, 0.1);
-  padding: 40px;
-}
-
-form input,
-form textarea {
-  width: 350px;
-  border-radius: 25px;
-  border: 1px solid #0A3D62;
-  padding: 10px 15px;
-  font-family: "Funnel Sans", sans-serif;
-  color: #222;
+  width: 600px;
+  height: 450px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(10, 61, 98, 0.192);
 }
 
 form textarea {
@@ -103,19 +93,7 @@ form textarea {
 form button {
   width: 200px;
   height: 40px;
-  background-color: #0A3D62;
-  border: none;
-  border-radius: 10px;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.2s;
 }
-
-form button:hover {
-  background-color: #1C6EA4;
-}
-
 
 #footer {
   width: 100%;
@@ -181,13 +159,8 @@ form button:hover {
     display: none;
   }
   #contact form {
-    width: 90%;
-    padding: 20px;
-  }
-
-  form input,
-  form textarea {
     width: 100%;
+    padding: 40px;
   }
 
   #footer p {
