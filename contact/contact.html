@@ -18,7 +18,7 @@
         emailjs.init({ publicKey: "bdFcD1fHP_ee3AzkD" });
       })();
 
-      function sendEmail(event) {
+      function sendEmail(event) {  
         event.preventDefault();
         emailjs.sendForm("service_2wjhj1b", "template_0h6nncm", "#contact-form")
           .then(() => alert("Email inviata con successo!"))
