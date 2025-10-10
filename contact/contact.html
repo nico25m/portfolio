@@ -5,22 +5,27 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/contact/css/contact.css" />
-     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Lexend+Giga:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="/img/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script> 
+    <script>
       (function () {
         emailjs.init({ publicKey: "bdFcD1fHP_ee3AzkD" });
       })();
 
-      function sendEmail(event) {  
+      function sendEmail(event) {
         event.preventDefault();
-        emailjs.sendForm("service_2wjhj1b", "template_0h6nncm", "#contact-form")
+        emailjs
+          .sendForm("service_2wjhj1b", "template_0h6nncm", "#contact-form")
           .then(() => alert("Email inviata con successo!"))
           .catch(() => alert("Ops, qualcosa è andato storto!"));
       }
@@ -35,15 +40,24 @@
         <a href="/cv/cv.html">CV</a>
       </nav>
       <nav class="menu-social">
-       <a href="https://www.linkedin.com/in/nicolò-melzi" target="_blank"
-            ><img src="/img/logo-linkedin.png" alt="Icona LinkedIn" title="https://www.linkedin.com/in/nicolò-melzi"
-          /></a>
-          <a href="https://github.com/nico25m" target="_blank"
-            ><img src="/img/logo-git.png" alt="Icona GitHub" title="https://github.com/nico25m"
-          /></a>
-          <a href="https://www.instagram.com/nico.melzi" target="_blank"
-            ><img src="/img/logo-instagram.png" alt="Icona Instagram" title="https://www.instagram.com/nico.melzi"
-          /></a>
+        <a href="https://www.linkedin.com/in/nicolò-melzi" target="_blank"
+          ><img
+            src="./img/logo-linkedin.png"
+            alt="Icona LinkedIn"
+            title="https://www.linkedin.com/in/nicolò-melzi"
+        /></a>
+        <a href="https://github.com/nico25m" target="_blank"
+          ><img
+            src="./img/logo-git.png"
+            alt="Icona GitHub"
+            title="https://github.com/nico25m"
+        /></a>
+        <a href="https://www.instagram.com/nico.melzi" target="_blank"
+          ><img
+            src="./img/logo-instagram.png"
+            alt="Icona Instagram"
+            title="https://www.instagram.com/nico.melzi"
+        /></a>
       </nav>
     </div>
 
@@ -54,23 +68,36 @@
           <input type="text" name="nome" placeholder="Nome" required />
           <input type="text" name="cognome" placeholder="Cognome" required />
           <input type="email" name="email" placeholder="Email" required />
-          <textarea name="message" placeholder="Il tuo messaggio..." required></textarea>
+          <textarea
+            name="message"
+            placeholder="Il tuo messaggio..."
+            required
+          ></textarea>
           <button type="submit">Invia</button>
         </form>
       </div>
     </div>
-    
+
     <div id="footer">
       <div class="social">
-      <a href="https://www.linkedin.com/in/nicolò-melzi" target="_blank"
-            ><img src="/img/logo-linkedin.png" alt="Icona LinkedIn" title="https://www.linkedin.com/in/nicolò-melzi"
-          /></a>
-          <a href="https://github.com/nico25m" target="_blank"
-            ><img src="/img/logo-git.png" alt="Icona GitHub" title="https://github.com/nico25m"
-          /></a>
-          <a href="https://www.instagram.com/nico.melzi" target="_blank"
-            ><img src="/img/logo-instagram.png" alt="Icona Instagram" title="https://www.instagram.com/nico.melzi"
-          /></a>
+        <a href="https://www.linkedin.com/in/nicolò-melzi" target="_blank"
+          ><img
+            src="./img/logo-linkedin.png"
+            alt="Icona LinkedIn"
+            title="https://www.linkedin.com/in/nicolò-melzi"
+        /></a>
+        <a href="https://github.com/nico25m" target="_blank"
+          ><img
+            src="./img/logo-git.png"
+            alt="Icona GitHub"
+            title="https://github.com/nico25m"
+        /></a>
+        <a href="https://www.instagram.com/nico.melzi" target="_blank"
+          ><img
+            src="./img/logo-instagram.png"
+            alt="Icona Instagram"
+            title="https://www.instagram.com/nico.melzi"
+        /></a>
       </div>
       <p>© 2025 Nicolò Melzi</p>
     </div>
