@@ -74,10 +74,16 @@ body {
   margin-bottom: 30px;
 }
 
+.cv-container-foto{
+    width: 200px;
+    height: auto;
+    
+}
+
 .cv-foto{
-    background-color: black;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
 }
 
 .cv-header h1 {
