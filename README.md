@@ -15,25 +15,19 @@ L’obiettivo è mostrare il mio stile, le mie competenze e alcuni progetti che 
 
 Il progetto segue una struttura semplice e ordinata per mantenere il codice leggibile:
 
-📂 assets
-┣ 📂 contact
-┃  ┣ 📂 css
-┃  ┗ 📜 contact.html
-┣ 📂 cv
-┃  ┣ 📂 css
-┃  ┗ 📜 cv.html
-┣ 📂 scss
-┣ 📂 css
-┣ 📂 img
-┣ 📜 index.html
-┗ 📜 README.md
+portfolio =>
+    /assets =>
+         /cv =>
+            /css
+            cv.html 
 
----
+         /contact=>
+            /css
+            contact.html
 
-
-
-
-
-
-
-
+         /scss
+         /css
+         /img
+    
+    index.html
+    README.md
