@@ -17,19 +17,19 @@ Il progetto segue una struttura semplice e ordinata per mantenere il codice legg
 
 portfolio 
 
-    /assets 
+    📂assets 
 
-         /cv 
-            /css
-            cv.html 
+         📂cv 
+            📂css
+            📜cv.html 
 
-         /contact
-            /css
-            contact.html
+         📂contact
+            📂css
+            📜contact.html
 
-         /scss
-         /css
-         /img
+         📂scss
+         📂css
+         📂img
     
-    index.html
-    README.md
+    📜index.html
+    📜README.md
