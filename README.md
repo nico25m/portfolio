@@ -28,7 +28,7 @@ Il progetto segue una struttura semplice e ordinata per mantenere il codice legg
 ┣ 📜 index.html
 ┗ 📜 README.md
 
-
+---
 
 
 
