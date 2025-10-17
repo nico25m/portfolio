@@ -27,3 +27,13 @@ Il progetto segue una struttura semplice e ordinata per mantenere il codice legg
 ┣ 📂 img
 ┣ 📜 index.html
 ┗ 📜 README.md
+
+
+
+
+
+
+
+
+
+
