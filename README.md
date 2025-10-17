@@ -15,15 +15,15 @@ L’obiettivo è mostrare il mio stile, le mie competenze e alcuni progetti che 
 
 Il progetto segue una struttura semplice e ordinata per mantenere il codice leggibile:
 
-portfolio =>
+portfolio 
 
-    /assets =>
-    
-         /cv =>
+    /assets 
+
+         /cv 
             /css
             cv.html 
 
-         /contact=>
+         /contact
             /css
             contact.html
 
