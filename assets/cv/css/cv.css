@@ -197,7 +197,7 @@ body {
 @media (max-width: 767px) {
   #header {
     position: sticky;
-    top: 0;
+    top: 0; 
     background: #ffffff;
     flex-direction: column;
     justify-content: center;
